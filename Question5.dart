@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  stdout.write("Enter the temperature in centigrade: ");
+  stdout.write("Please enter the temperature in centigrade: ");
   int temperature = int.parse(stdin.readLineSync()!);
 
   if (temperature < 0) {
